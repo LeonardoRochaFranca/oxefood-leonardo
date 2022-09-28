@@ -17,6 +17,8 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -79,6 +81,12 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		         <dependency>
+                   <groupId>org.apache.commons</groupId>
+                   <artifactId>commons-lang3</artifactId>
+          </dependency>
+		
 	</dependencies>
 
 	<build>
